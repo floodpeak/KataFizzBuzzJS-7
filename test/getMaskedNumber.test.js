@@ -1,4 +1,5 @@
 import {expect} from 'chai'
+import getMaskedNumber from '../getMaskedNumber'
 
 describe('fizz buzz', ()=>{
   it('should be 1 for 1', ()=>{
