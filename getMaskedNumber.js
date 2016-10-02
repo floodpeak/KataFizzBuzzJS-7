@@ -1,14 +1,15 @@
 export default (number)=>{
   const multipleOf3 = number % 3 == 0
   const multipleOf5 = number % 5 == 0
-  if (multipleOf3 && multipleOf5) {
-    return 'FizzBuzz'
-  }
+  let result = ''
   if(multipleOf3){
-    return 'Fizz'
+    result = 'Fizz'
   }
   if(multipleOf5){
-    return 'Buzz'
+    result = 'Buzz'
   }
-  return number
+  if (multipleOf3 && multipleOf5) {
+    result = 'FizzBuzz'
+  }
+  return result || number
 }
