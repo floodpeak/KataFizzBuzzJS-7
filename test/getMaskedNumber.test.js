@@ -8,4 +8,7 @@ describe('fizz buzz', ()=>{
   it('should be 2 for 2', ()=>{
     expect(getMaskedNumber(2)).to.be.equal(2)
   })
+  it('should be Fizz for 3', ()=>{
+    expect(getMaskedNumber(3)).to.be.equal('Fizz')
+  })
 })
