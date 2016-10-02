@@ -1,3 +1,3 @@
-export default ()=>{
-  return 1
+export default (number)=>{
+  return number
 }
