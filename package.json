@@ -1,0 +1,27 @@
+{
+  "name": "FizzBuzzJS-7",
+  "version": "1.0.0",
+  "description": "Practice for http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz using Javascript es6 with mocha and chai",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floodpeak/KataFizzBuzzJS-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floodpeak/KataFizzBuzzJS-7/issues"
+  },
+  "homepage": "https://github.com/floodpeak/KataFizzBuzzJS-7#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}
